@@ -1,13 +1,9 @@
-import { Route, Routes } from "react-router";
-import Header from "./components/Header/Header";
+import MainLayout from "./layout/MainLayout";
 
 export default function App() {
     return (
         <>
-            <Header/>
-            <Routes>
-                <Route path="/" element={''} />
-            </Routes>
+            <MainLayout/>
         </>
     );
 };
