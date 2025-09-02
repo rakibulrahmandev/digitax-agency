@@ -3,7 +3,9 @@ import HeroSection from "../HeroSection/HeroSection";
 export default function Home() {
     return (
         <>
-            <HeroSection/>
+            <div className="w-full flex items-center justify-center">
+                <HeroSection/>
+            </div>
         </>
     );
 };
