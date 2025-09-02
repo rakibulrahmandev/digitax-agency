@@ -4,6 +4,7 @@ import laptopImg from '../../../assets/laptop/laptop_img.png';
 import laptopAbs from '../../../assets/laptop/laptop_abs.png';
 import desktopImg from '../../../assets/desktop/desktop_img.png';
 import desktopAbs from '../../../assets/desktop/desktop_abs.png';
+import HeroButton from '../../Button/HeroButton';
 
 export default function HeroSection() {
     return (
@@ -29,6 +30,12 @@ export default function HeroSection() {
                             </div>
                             <div className='w-full text-center mt-3 max-w-[358px] laptop:text-left laptop:max-w-[600px] laptop:mt-4 desktop:max-w-[800px] desktop:mt-5'>
                                 <p className='text-white-shade-50 text-sm font-normal leading-[150%] laptop:text-base desktop:text-lg'>At DigitX, we believe in the transformative power of digital solutions. Our team of experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape. From captivating web design to data-driven marketing strategies, we are committed to delivering results that exceed expectations.</p>
+                            </div>
+                            <div className='w-full mt-[50px] laptop:mt-[60px]'>
+                                <div className='w-full mb-3 text-center laptop:text-left laptop:mb-4 desktop:mb-5'>
+                                    <p className='text-absolute-white text-sm font-normal leading-[150%]'>Unlock Your Digital Potential Today</p>
+                                </div>
+                                <HeroButton/>
                             </div>
                         </div>
                     </div>
