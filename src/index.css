@@ -28,4 +28,9 @@
     
     /* ---------------------------------- font family */
     --font-sora: 'Sora', sans-serif;
+
+    /* ---------------------------------- breakpoints */
+    --breakpoint-mobile: 24.375rem;
+    --breakpoint-laptop: 90rem;
+    --breakpoint-desktop: 120rem;
 };
