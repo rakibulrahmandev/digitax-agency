@@ -15,7 +15,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="w-full fixed top-0 left-0 pt-10 pb-3.5 border-b border-grey-shade-12 bg-grey-shade-06/20 backdrop-blur-md laptop:py-5 desktop:py-6">
+            <header className="w-full fixed top-0 left-0 pt-10 pb-3.5 border-b border-grey-shade-12 bg-grey-shade-06/20 backdrop-blur-md z-40 laptop:py-5 desktop:py-6">
                 <div className="container">
                     <div className="w-full flex items-center justify-between">
                         <div className="w-auto">
@@ -56,7 +56,7 @@ export default function Header() {
                     </div>
                 </div>
             </header>
-            <div className={`fixed inset-0 bg-grey-shade-06/10 backdrop-blur-md transform transition-transform ${isOpen ? 'translate-y-0 delay-800 duration-800 ease-in' : '-translate-y-[100%] delay-1000 duration-1000 ease-in'}`}>
+            <div className={`fixed inset-0 z-50 bg-grey-shade-06/10 backdrop-blur-md transform transition-transform ${isOpen ? 'translate-y-0 delay-800 duration-800 ease-in' : '-translate-y-[100%] delay-1000 duration-1000 ease-in'}`}>
                 <div className={`fixed top-0 left-0 w-full h-full transform ${isOpen ? 'transform-0 duration-[2000] delay-[2000] ease-in' : '-transform-[100%] duration-800 delay-800 ease-in'} overflow-y-auto bg-grey-shade-06 py-10 px-4 transition-transform`}>
                     <div className='w-full flex items-center justify-end'>
                         <button onClick={handleClick} className='w-[52px] h-[52px] bg-grey-shade-10 border border-grey-shade-12 rounded-full flex items-center justify-center text-absolute-white cursor-pointer'>
