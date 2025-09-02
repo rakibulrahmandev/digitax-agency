@@ -33,7 +33,7 @@ export default function HeroSection() {
                             </div>
                             <div className='w-full mt-[50px] laptop:mt-[60px]'>
                                 <div className='w-full mb-3 text-center laptop:text-left laptop:mb-4 desktop:mb-5'>
-                                    <p className='text-absolute-white text-sm font-normal leading-[150%]'>Unlock Your Digital Potential Today</p>
+                                    <p className='text-absolute-white text-sm font-normal leading-[150%] laptop:text-base desktop:text-xl'>Unlock Your Digital Potential Today</p>
                                 </div>
                                 <HeroButton primaryText='Get Started' secondaryText='Free Consultation' />
                             </div>
