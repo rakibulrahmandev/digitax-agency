@@ -22,7 +22,7 @@ export default function HeroSection() {
                         <img src={desktopAbs} alt="here pattern image" className="w-full object-cover hidden laptop:hidden desktop:block" />
                     </div>
                 </div>
-                <div className='w-full absolute inset-0'>
+                <div className='w-full absolute inset-0 z-30'>
                     <div className='container'>
                         <div className='w-full mt-[471px] laptop:mt-[81px] laptop:pt-[169px] desktop:mt-[103px] desktop:pt-[188px]'>
                             <div className='w-full text-center laptop:text-left laptop:max-w-[600px] desktop:max-w-[800px]'>
