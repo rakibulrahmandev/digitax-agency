@@ -1,7 +1,7 @@
-export default function HeroButton() {
+export default function HeroButton({type, text}) {
     return (
         <>
-            
+
         </>
     );
 };
