@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
     {
         id: 1,
         label: 'Home',
@@ -35,3 +35,5 @@ export const navLinks = [
         pathname: '/blogs'
     }
 ];
+
+export default navLinks;

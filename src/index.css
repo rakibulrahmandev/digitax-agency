@@ -35,8 +35,14 @@
     --breakpoint-desktop: 120rem;
 };
 
+@layer base {
+    body {
+        @apply text-base text-absolute-white font-normal font-sora
+    };
+};
+
 @layer utilities {
     .container {
         @apply px-4 mx-auto mobile:max-w-[22.375rem] laptop:max-w-[80rem] desktop:max-w-[99.75rem]
-    }
-}
+    };
+};
