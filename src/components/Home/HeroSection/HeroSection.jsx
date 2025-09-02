@@ -35,7 +35,8 @@ export default function HeroSection() {
                                 <div className='w-full mb-3 text-center laptop:text-left laptop:mb-4 desktop:mb-5'>
                                     <p className='text-absolute-white text-sm font-normal leading-[150%]'>Unlock Your Digital Potential Today</p>
                                 </div>
-                                <HeroButton type='primary-btn' text='Get Started' />
+                                <HeroButton primaryText='Get Started' />
+                                <HeroButton secondaryText='Free Consultation' />
                             </div>
                         </div>
                     </div>
