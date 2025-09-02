@@ -1,2 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import 'tailwindcss';
+
+@theme {
+    /* ---------------------------------- absolute colors */
+    --color-absolute-white: #FFF;
+    --color-absolute-black: #000;
+    
+    /* ---------------------------------- white shade colors */
+    --color-white-shade-50: #808080;
+    --color-white-shade-55: #8C8C8C;
+    --color-white-shade-60: #999999;
+    --color-white-shade-65: #A6A6A6;
+    --color-white-shade-70: #B3B3B3;
+    --color-white-shade-75: #BFBFBF;
+    --color-white-shade-80: #CCCCCC;
+    --color-white-shade-90: #E6E6E6;
+
+    /* ---------------------------------- grey shade colors */
+    --color-grey-shade-06: #0F0F0F;
+    --color-grey-shade-10: #1A1A1A;
+    --color-grey-shade-12: #1F1F1F;
+    --color-grey-shade-15: #262626;
+    --color-grey-shade-20: #333333;
+    --color-grey-shade-25: #404040;
+    --color-grey-shade-30: #4C4C4C;
+    --color-grey-shade-40: #666666;
+    
+    /* ---------------------------------- font family */
+    --font-sora: 'Sora', sans-serif;
+};
